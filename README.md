@@ -24,9 +24,6 @@ See http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/
 
 1. Edit ```/etc/lirc/hardware.conf```
 
-    ########################################################
-    # /etc/lirc/hardware.conf
-    #
     # Arguments which will be used when launching lircd
     LIRCD_ARGS=""
 
@@ -48,7 +45,6 @@ See http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/
     # Default configuration files for your hardware if any
     LIRCD_CONF=""
     LIRCMD_CONF=""
-    ########################################################
 
 1. Run ```sudo mkdir /etc/lirc/remotes```
 1. Copy remote files into ```/etc/lirc/remotes```
